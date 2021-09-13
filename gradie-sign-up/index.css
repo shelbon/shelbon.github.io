@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth !important;
   box-sizing: border-box;
   background-color: var(--bg-color);
-  background-image: url('./assets/Background.png');
+  background-image: url('./Assets/Background.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
