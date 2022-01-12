@@ -1,0 +1,16 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    font-size: 62.5%;
+    font-family: 'Archivo', sans-serif;
+    background-color: #f9f6f1;
+}
+body{
+  font-size: 1.6em;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
