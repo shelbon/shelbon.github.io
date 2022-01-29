@@ -1,4 +1,4 @@
-<script>
+<script context="module">
 	import Banner from '../components/Banner.svelte';
 	import Features from '../components/Features.svelte';
 	import bannerItems from '../banner.json';
