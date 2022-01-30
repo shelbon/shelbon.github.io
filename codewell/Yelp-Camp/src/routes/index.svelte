@@ -2,6 +2,7 @@
 	import Banner from '../components/Banner.svelte';
 	import Features from '../components/Features.svelte';
 	import bannerItems from '../banner.json';
+	export const prerender = true;
 </script>
 
 <svelte:head>
