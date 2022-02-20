@@ -18,7 +18,7 @@
 		<img class="ml-4" src="/assets/Logo.svg" alt="logo" />
 		<span class="ml-auto flex items-center space-x-1">
 			<Icon icon="la:long-arrow-alt-left" inline={true} />
-			<a href="/search"> Back to campgrounds</a>
+			<a href="/campgrounds"> Back to campgrounds</a>
 		</span>
 	</header>
 	<main class="row-start-2 row-end-2 mt-36 px-4 md:pr-16   lg:px-60 ">
