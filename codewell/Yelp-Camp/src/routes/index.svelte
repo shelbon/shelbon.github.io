@@ -1,6 +1,6 @@
 <script context="module">
-	import Banner from '../components/Banner.svelte';
-	import Features from '../components/Features.svelte';
+	import Banner from '../lib/components/Banner.svelte';
+	import Features from '../lib/components/Features.svelte';
 	import bannerItems from '../banner.json';
 	export const prerender = true;
 </script>
@@ -48,7 +48,8 @@
 			class="bg-black border-2 border-solid 
 		                 border-transparent rounded-md 
 						 text-white  p-4
-						  lg:text-3xl lg:p-6">View Campgrounds</button
+						  lg:text-3xl lg:p-6 "
+			on:click={() => (window.location.href = '/campgrounds')}>View Campgrounds</button
 		>
 		<div>
 			<p>Partnered with:</p>
