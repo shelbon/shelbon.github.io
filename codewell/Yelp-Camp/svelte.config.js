@@ -1,16 +1,12 @@
-import path from 'path';
+import adapter from '@sveltejs/adapter-netlify';
 import preprocess from 'svelte-preprocess';
+import EnvironmentPlugin from 'vite-plugin-environment';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte',
+		adapter: adapter({}),
 		vite: {
-			resolve: {
-				alias: {
-					'@components': path.resolve('./src/components')
-				}
-			}
+			plugins: [EnvironmentPlugin(['MONGO_URI'])]
 		}
 	},
 	preprocess: [preprocess({})]
