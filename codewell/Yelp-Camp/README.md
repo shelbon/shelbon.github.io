@@ -1,4 +1,4 @@
-#YelpCamp by Colt Steele
+# YelpCamp by Colt Steele
 
 Codewell Yelcamp challenge's build with sveltekit
  
