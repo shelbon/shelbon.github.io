@@ -8,7 +8,6 @@ export async function post({ request }) {
 	const formData = getFormBody(await request.formData());
 	if (isFormValid(formData)) {
 		const userInDB = await User.findOne({ email: formData.email });
-		console.log(userInDB);
 		//if user found return  email already used
 		if (userInDB != null) {
 			return {
