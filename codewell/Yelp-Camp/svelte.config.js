@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter({}),
 		vite: {
-			plugins: [EnvironmentPlugin(['MONGO_URI', 'APP_ID'])]
+			plugins: [EnvironmentPlugin(['MONGO_URI'])]
 		}
 	},
 	preprocess: [preprocess({})]
