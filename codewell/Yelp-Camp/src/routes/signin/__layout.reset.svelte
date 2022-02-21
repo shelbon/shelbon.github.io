@@ -5,9 +5,9 @@
 </script>
 
 <div
-	class="grid grid-rows-[8vh_75vh_1fr] 
-              bg-white 
-			lg:grid-cols-[60vw_40vw]  lg:min-h-screen"
+	class="grid grid-rows-[8vh_1fr_1fr] 
+              bg-white  min-h-screen
+			lg:grid-cols-[60vw_40vw]"
 >
 	<header
 		class="flex justify-start items-center 
@@ -21,8 +21,8 @@
 			<a href="/campgrounds"> Back to campgrounds</a>
 		</span>
 	</header>
-	<main class="row-start-2 row-end-2 mt-36 px-4 md:pr-16   lg:px-60 ">
-		<p class=" text-6xl font-bold p-4">Start exploring camps from all around the world.</p>
+	<main class="row-start-2 row-end-2 mt-30 px-4 md:pr-16   lg:px-60 ">
+		<p class=" text-2xl  font-bold p-4">Start exploring camps from all around the world.</p>
 		<slot />
 	</main>
 	<section

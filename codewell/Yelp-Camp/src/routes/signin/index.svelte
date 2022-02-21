@@ -55,7 +55,8 @@
 			class="form-input peer p-4 mx-4 border-2 border-transparent 
 	border-solid rounded-md bg-[#f7f7f7] 
 	invalid:border-[#F03434] invalid:text-[#F03434]
-	focus:invalid:border-[#F03434]-500 focus:invalid:ring-[#F03434]"
+	focus:invalid:border-[#F03434]-500 focus:invalid:ring-[#F03434]
+	placeholder:text-2xl"
 			type="password"
 			name="password"
 			minlength="8"

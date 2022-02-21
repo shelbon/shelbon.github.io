@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="grid grid-rows-[8vh_75vh_1fr] 
+	class="grid grid-rows-[8vh_1fr_1fr] 
               bg-white 
 			lg:grid-cols-[60vw_40vw]  lg:min-h-screen"
 >
